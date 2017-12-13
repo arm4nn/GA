@@ -26,9 +26,9 @@ library(GA)
 ```
 <br />
 #### Run the tests in the package
-``` r
 Please make sure you have installed [testthat](https://www.r-pkg.org/pkg/testthat) package, and run the following code in R:
-> testthat::test_package('GA')
+``` r
+testthat::test_package('GA')
 ```
 <br />
 #### Develop the package
