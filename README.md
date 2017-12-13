@@ -38,7 +38,3 @@ To update the help pages, please run the following code after changing:
 ``` r
 devtools::document()
 ```
-
-
-
-
