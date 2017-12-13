@@ -18,20 +18,19 @@
 
 If you would like to use the parallelization technique in this package, please also make sure you have installed the following packages: [parallel](http://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf), [doParallel](https://www.r-pkg.org/pkg/doParallel), and [foreach](https://www.r-pkg.org/pkg/foreach).
 <br />
-
 #### Use the package
 Please run the following code in R:
 ``` r
 devtools::install_github('arm4nn/GA')<br>
 library(GA)
-```
-<br />
+```<br />
+
 #### Run the tests in the package
 Please make sure you have installed [testthat](https://www.r-pkg.org/pkg/testthat) package, and run the following code in R:
 ``` r
 testthat::test_package('GA')
-```
-<br />
+```<br />
+
 #### Develop the package
 The package is welcomed to be refined. Please push the updated package to Github and reinstall it before using.
 
