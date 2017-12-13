@@ -23,13 +23,15 @@ Please run the following code in R:
 ``` r
 devtools::install_github('arm4nn/GA')<br>
 library(GA)
-```<br />
+```
+<br />
 
 #### Run the tests in the package
 Please make sure you have installed [testthat](https://www.r-pkg.org/pkg/testthat) package, and run the following code in R:
 ``` r
 testthat::test_package('GA')
-```<br />
+```
+<br />
 
 #### Develop the package
 The package is welcomed to be refined. Please push the updated package to Github and reinstall it before using.
